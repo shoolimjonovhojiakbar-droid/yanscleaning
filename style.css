@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit; 
+}
+
+:root {
+    --white: #fff;
+    --black: #000;
+    --blak-light: #333;
+    --bg-header: #b8f0ff99;
+
+    --default: #0b4a9e;
+    --hover: #b8f0ff;
+    --active: #073269;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Bold.woff') format('woff'),
+        font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('fonts/Rubik-Regular.woff') format('woff'),
+        font-style: normal;
+    font-weight: 400;
+}
+
+
+body {
+    font-family: 'Rubik', sans-serif;
+    height: 100vh;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+svg{
+    display: block;
+}
+
+/* global */
